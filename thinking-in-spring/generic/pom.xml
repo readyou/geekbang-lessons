@@ -11,9 +11,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>generic</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>4.3.26.RELEASE</version>
+        </dependency>
+    </dependencies>
 
     <properties>
-        <spring.version>4.3.26.RELEASE</spring.version>
+        <spring.version>5.2.8.RELEASE</spring.version>
     </properties>
 
 </project>
